@@ -3,14 +3,15 @@
 Tharanitharan's new Flutter project.
 
 ## Getting Started
+In this app we can import json file and view them , save them to library and view for later even the json is deleted 
 
-This project is a starting point for a Flutter application.
+##Packages used:
+flutter_bloc and equatable ( to make state management easy)
+hive and hive_flutter (to store the book locally)
+video_player (to play audio and video using network url)
+file_picker (to pick the json file)
 
-A few resources to get you started if this is your first Flutter project:
+Project flow:
+In this app it runns in android where we can import the json file using filepicker and view them page by page by parsing the json and save them locally using hive.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+demo video link:https://drive.google.com/file/d/1kM6KfL_4uHM9ZnA6p4_kFzJoCWLx_yvr/view?usp=sharing
